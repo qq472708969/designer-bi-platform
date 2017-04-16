@@ -1,0 +1,9 @@
+/*
+
+npm run eject   //用来暴露webpack配置文件
+
+npm run build   //用来执行webpack的打包压缩命令，进行发布
+
+npm start   //直接启动服务
+
+*/

@@ -1,0 +1,39 @@
+@import '~antd/dist/antd.css';
+
+body {
+    margin: 0;
+    padding: 0;
+    /*font-family: sans-serif;*/
+}
+
+/*1-根部div与高度body对齐*/
+/*2-让antd的布局自适应高度，宽度默认自适应*/
+#root, .ant-layout {
+    height: 100%;
+    width: 100%;
+}
+
+#components-layout .logo {
+    text-align:center;
+    height: 32px;
+    border-radius: 6px;
+    margin: 16px;
+}
+
+#components-layout .logo img{
+    width: 32px;
+    height: 32px;
+}
+
+#components-layout .ant-layout-sider-collapsed .anticon {
+    font-size: 16px;
+    margin-left: 8px;
+}
+
+#components-layout .ant-layout-sider-collapsed .nav-text {
+    display: none;
+}
+
+#components-layout .ant-layout-sider-collapsed .ant-menu-submenu-vertical > .ant-menu-submenu-title:after {
+    display: none;
+}
